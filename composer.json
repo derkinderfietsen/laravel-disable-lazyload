@@ -1,0 +1,19 @@
+{
+  "name": "derkinderfietsen/laravel-disable-lazyload",
+  "description": "Disable lazy load on Laravel",
+  "type": "library",
+  "require": {
+    "laravel/framework": "^5.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "lazyload",
+    "eloquent"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Derkinderfietsen\\DisableLazyLoad\\": "src/"
+    }
+  }
+}
